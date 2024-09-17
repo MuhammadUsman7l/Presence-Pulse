@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css or App.css */
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+
+/* In your CSS file, use the following to hide the calendar icon
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+  opacity: 0;
+} */
